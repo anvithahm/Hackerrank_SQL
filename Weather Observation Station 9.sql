@@ -1,1 +1,3 @@
-Weather Observation Station 9.sql
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT REGEXP '^[AEIOU]';
